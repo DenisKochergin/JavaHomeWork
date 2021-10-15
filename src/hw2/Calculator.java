@@ -16,18 +16,18 @@ public class Calculator {
 
         switch (operator) {
             case '+':
-                System.out.println(operand1+" "+operator+" "+operand2+"= "+(operand1 + operand2));// output = operand1 + operand2;
+                System.out.println(operand1+" "+operator+" "+operand2+"= "+(operand1 + operand2));
                 break;
             case '-':
-                System.out.println(operand1+" "+operator+" "+operand2+"= "+(operand1 - operand2));//output = operand1 - operand2;
+                System.out.println(operand1+" "+operator+" "+operand2+"= "+(operand1 - operand2));
                 break;
             case '*':
-                System.out.println(operand1+" "+operator+" "+operand2+"= "+(operand1 * operand2));//output = operand1 * operand2;
+                System.out.println(operand1+" "+operator+" "+operand2+"= "+(operand1 * operand2));
                 break;
             case '/':
                 if (operand2 == 0)
                     System.out.println("Делить на ноль не!");
-                else   System.out.println(operand1+" "+operator+" "+operand2+"= "+(operand1 * 1.00 / operand2));//output = operand1 * 1.00 / operand2;
+                else   System.out.println(operand1+" "+operator+" "+operand2+"= "+(operand1 * 1.00 / operand2));
                 break;
             default:
                 System.out.println("Калькулятор может только складывать, отнимать, умножать и делить");
