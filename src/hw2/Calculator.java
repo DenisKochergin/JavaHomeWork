@@ -26,11 +26,11 @@ public class Calculator {
                 break;
             case '/':
                 if (operand2 == 0)
-                    System.out.println("Ошибка ввода! Деление на 0 невозможно!");
+                    System.out.println("Делить на ноль не!");
                 else   System.out.println(operand1+" "+operator+" "+operand2+"= "+(operand1 * 1.00 / operand2));//output = operand1 * 1.00 / operand2;
                 break;
             default:
-                System.out.println("Ошибка ввода! Программа может выполнять только действия сложения, вычитания, деления и умножения");
+                System.out.println("Калькулятор может только складывать, отнимать, умножать и делить");
         }
     }
 }
